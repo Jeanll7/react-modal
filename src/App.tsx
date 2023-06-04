@@ -9,9 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h2 style={{ color: "white" }}>
-          Click para abrir o <span>MODAL</span>
-        </h2>
+        <h2 style={{ color: "white" }}>Click para abrir o modal</h2>
         <button
           style={{ background: "#0317ca", color: "white" }}
           onClick={() => setOpen(!open)}
